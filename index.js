@@ -4,7 +4,7 @@ const PORT = 3000;
 app.use(express.json());
 
 const studentRoute=require("./Routes/studentRoute");
-app.use('/student',studentRoute);
+app.use('/api',studentRoute);
 
 // Access ROOT PROJECT 
 app.get("/",(req,res)=>{
