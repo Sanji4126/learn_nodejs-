@@ -11,6 +11,7 @@ app.get("/",(req,res)=>{
     res.send("NodeJS is starting........");
 });
 
+
 // Startup Server nodeJS 
 app.listen(PORT,()=>{
     console.log(`Server is running on port ${PORT}`);

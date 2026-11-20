@@ -1,4 +1,4 @@
-const listProduct =
+const listStudent =
     [
         {
             student_id:1,
@@ -25,4 +25,4 @@ const listProduct =
             payment: 1000
         }
     ]
-    module.exports=listProduct;
+    module.exports=listStudent;
